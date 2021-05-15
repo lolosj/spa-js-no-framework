@@ -1,0 +1,39 @@
+/* css theme */
+
+/* Use Google Fonts. */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+/* navigation bar links. */
+#navigation-bar a {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.5em;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 8px 0px 8px;
+    color: black;
+    text-decoration: none;
+  
+    border: 2px solid;
+    border-color: white;
+    border-radius: 20px;
+  }
+
+  /* hover page link. */
+#navigation-bar a:hover {
+  border-color: gray;
+}
+
+/* active page link */
+#navigation-bar a.active {
+  border-color: black;
+}
+
+/* content */
+#contenu {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+

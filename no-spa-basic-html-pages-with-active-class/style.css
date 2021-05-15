@@ -1,0 +1,12 @@
+/* css theme */
+
+/* navigation bar links. */
+#navigation-bar a {
+    background-color: lightgray;
+  }
+
+  /* the currently active page link. */
+#navigation-bar .active {
+  background-color: gray;
+  color: red;
+}
