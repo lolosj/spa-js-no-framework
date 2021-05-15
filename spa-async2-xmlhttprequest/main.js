@@ -4,7 +4,7 @@ function getContent(fragmentId, callback) {
         callback(request.responseText);
 
     }
-    var url = 
+    
     request.open("GET", "content/" + fragmentId + ".html");
     request.send();
 }
